@@ -1,6 +1,6 @@
 import {Button, Alert, Breadcrumb, Card, Form} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css"
-import img from "./images/img1.jpg"
+import {Img1} from "./images/Image"
 
 function App() {
   return (
@@ -30,12 +30,10 @@ function App() {
               </Card.Body>
           </Card>
 
-
-
           <Card className={"w-25 mb-3 text-center"}>
               <Card.Header>啟英發大財</Card.Header>
               <Card.Body>
-                  <Card.Img src={img} />
+                  <Card.Img src={Img1} />
                   <Card.Title>title</Card.Title>
                   <Card.Text>hello</Card.Text>
                   <Button variant={"primary"} className={"me-3"}>test</Button>
